@@ -8,10 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        deepSeaBlue: "#011627",   // Main background
+        oceanBlue: "#1e3a8a",     // Accent color
+        waveGreen: "#00b894",     // Secondary highlight
+        coralRed: "#ff4b5c",      // Attention grabber
+        lightSeafoam: "#c8f7f1",  // Soft highlight
+      },
+      fontFamily: {
+        sans: ['"Poppins"', "sans-serif"], // Modern, clean font
+      },
+      backgroundImage: {
+        'deep-gradient': "linear-gradient(to bottom, #011627, #1e3a8a)",
       },
     },
   },
   plugins: [],
 };
+
